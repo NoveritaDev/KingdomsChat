@@ -1,0 +1,31 @@
+name: KingdomsChat
+version: 1.0
+author: Noverita
+main: me.noverita.kingdomschat.KingdomsChat
+api-version: 1.13
+commands:
+  ch:
+    description: Change text channel
+    usage: /ch <channel>
+    permission: kingdomschat.changechannel
+    default: true
+  namecolor:
+    description: Change the color of your name.
+    usage: /namecolor <color>
+    permission: kingdomschat.namecolor
+    default: op
+  chleave:
+    description: Leave a text channel
+    usage: /chleave <channel>
+    permission: kingdomschat.changechannel
+    default: true
+  em:
+    description: Emphasizes your messages.
+    usage: /em
+    permission: kingdomschat.emphasis
+    default: op
+  roll:
+    description: Rolls some dice
+    usage: /roll <dice formatting string>, max 100 per dice, max 30 dice
+    permission: kingdomschat.roll
+    default: true
